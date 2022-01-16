@@ -1,0 +1,16 @@
+.graphCodeContainer {
+    position: relative;
+}
+
+.graphCodeTextArea {
+    width: 20rem;
+    height: 20rem;
+}
+
+.jsonIsFaulty {
+    top: 2rem;
+    position: absolute;
+    background-color: Red;
+    color: Yellow;
+    padding: 2rem;
+}

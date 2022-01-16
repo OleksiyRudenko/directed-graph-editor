@@ -1,0 +1,17 @@
+.fileSaveButton {
+    width: 12ex;
+    text-align: left;
+    background-color: #98b6eb;
+}
+
+.fileSaveButton:disabled {
+    background-color: #eee;
+}
+
+.fileSaveButton:hover {
+    background-color: cornflowerblue;
+}
+
+.fileSaveButton:disabled:hover {
+    background-color: #eaa;
+}

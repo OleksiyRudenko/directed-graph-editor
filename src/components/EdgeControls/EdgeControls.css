@@ -1,0 +1,35 @@
+.toolBar {
+    position: absolute;
+    top: 150px;
+    left: 475px;
+}
+
+.edgeControlButton {
+    width: 35px;
+    font-size: 60%;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.bigButton {
+    font-size: 120%;
+}
+
+.edgeControlButton.normal:hover {
+    background-color: #ccc;
+}
+.edgeControlButton.insert {
+    color: #008c15;
+}
+
+.edgeControlButton.insert:hover {
+    background-color: #9d9;
+}
+
+.edgeControlButton.delete {
+    color: Red;
+}
+
+.edgeControlButton.delete:hover {
+    background-color: #db9;
+}

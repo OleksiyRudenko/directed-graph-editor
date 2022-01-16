@@ -1,0 +1,50 @@
+[{
+  "id": "0",
+  "next": ["1"],
+  "payload": {
+    "label": "root1",
+    "exist": true
+  }
+}, {
+  "id": "1",
+  "next": [],
+  "payload": {
+    "label": "A",
+    "exist": true
+  }
+}, {
+  "id": "2",
+  "next": ["3", "4"],
+  "payload": {
+    "label": "root2",
+    "exist": true
+  }
+}, {
+  "id": "3",
+  "next": ["5"],
+  "payload": {
+    "label": "B",
+    "exist": true
+  }
+}, {
+  "id": "4",
+  "next": ["5"],
+  "payload": {
+    "label": "C",
+    "exist": true
+  }
+}, {
+  "id": "5",
+  "next": [],
+  "payload": {
+    "label": "D",
+    "exist": true
+  }
+}, {
+  "id": "6",
+  "next": [],
+  "payload": {
+    "label": "root3",
+    "exist": true
+  }
+}]

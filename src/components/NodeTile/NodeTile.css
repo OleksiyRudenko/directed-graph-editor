@@ -1,0 +1,73 @@
+.nodeOrange {
+    background-color: #e25300;
+}
+
+.nodeGreen {
+    background-color: #008c15;
+}
+
+.nodeBlue {
+    background-color: #193772;
+}
+
+.nodePurple {
+    background-color: #6304a3;
+}
+
+.nodeDefaultIcon div {
+    font-size: 14px;
+}
+
+.nodeContainer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    color: #eee;
+    border: 0 solid #2b2ba8;
+    border-radius: 6px;
+}
+
+.label {
+    line-height: normal;
+}
+
+.topToolBar {
+}
+
+.bottomToolBar {
+}
+
+.button {
+    font-size: 60%;
+    padding: 2px;
+    /* border: 1px solid Black; */
+    border-radius: 4px;
+}
+
+.bigButton {
+    font-size: 120%;
+}
+
+.button.link:hover {
+    background-color: #6bd;
+}
+
+.button.edit:hover {
+    background-color: #9d9;
+}
+
+.button.delete {
+    color: Red;
+}
+
+.button.delete:hover {
+    background-color: #db9;
+}
+
+.textInput {
+    width: 80%;
+}

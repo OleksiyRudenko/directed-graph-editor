@@ -1,0 +1,18 @@
+.filenameControlsContainer {
+    padding: 3px;
+}
+
+.filenameButton {
+    text-align: left;
+    text-overflow: ellipsis;
+    width: 8em;
+}
+
+.filenameButtonText {
+    /* width: 95px; */
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
